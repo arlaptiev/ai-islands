@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <script language="javascript" type="text/javascript" src="api.js"></script>
+  <title>AI ISLANDS</title>
+</head>
+<body>
+  <div class="app">
+    <h1>AI ISLANDS</h1>
+    <h5>Load Image</h5>
+
+    <input type="file" id="inputImage" accept="image/*">
+    <button onclick="loadAndProcessImage()">Submit</button>
+    
+    <div>
+      <h5>Output Image</h5>
+      <img id="outputImage" src="" alt="Output Image">
+    </div>
+    
+  </div>
+</body>
+</html>
