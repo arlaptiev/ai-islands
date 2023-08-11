@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 1wv;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+
+  /* This centers our sketch horizontally. */
+  /* justify-content: center; */
+
+  /* This centers our sketch vertically.*/
+  /* align-items: center; */
+}
+
+input {
+  color: #fff;
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #010305, #131516);
+}
+
+.container {
+  margin: auto;
+  padding: 30px;
+  width: 500px;
+  height: 100%;
+  color: white;
+}

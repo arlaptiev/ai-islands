@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <script language="javascript" type="text/javascript" src="js/api/replicate.js"></script>
+  <script language="javascript" type="text/javascript" src="js/core.js"></script>
+
+  <title>AI ISLANDS</title>
+</head>
+<body>
+  <div class="app">
+
+    <div class="container">
+      <h1>AI ISLANDS</h1>
+      <h5>Load Image</h5>
+
+      <input type="text" id="imageUrl" placeholder="Enter image URL">
+      <button onclick="loadAndProcessImage()">Submit</button>
+
+      <div>
+        <h5>Input Sand</h5>
+        <img id="inputImage" width="400" src="https://placehold.co/400?text=Input" alt="Input Image">
+      </div>
+      
+      <div>
+        <h5>Output Island</h5>
+        <img id="outputImage" width="400" src="https://placehold.co/400?text=Output" alt="Output Image">
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
